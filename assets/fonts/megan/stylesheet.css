@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Megan';
+    src: url('Megan.woff2') format('woff2'),
+        url('Megan.woff') format('woff'),
+        url('Megan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
