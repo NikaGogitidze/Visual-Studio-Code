@@ -450,3 +450,72 @@ h3 {
 .comments-detail div .paragraph p a:hover {
     text-decoration: underline;
 }
+
+.white {
+    width: 100%;
+    height: 385px;
+    background-color: rgb(255, 255, 255);
+}
+
+.white-container {
+    width: 77%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.description-image {
+    width: 36%;
+    height: 60%;
+}
+
+.description {
+    width: 59%;
+    height: 60%;
+}
+
+.description p {
+    font-size: 20.8px;
+    line-height: 45px;
+    margin: 0%;
+    color: rgb(68, 68, 68);
+}
+
+.description h4 {
+    font-size: 35px;
+    margin: 0%;
+    margin-bottom: 30px;
+    color: rgb(68, 68, 68);
+    font-weight: normal;
+}
+
+.grey {
+    width: 100%;
+    height: 385px;
+    background-color: rgb(245, 245, 245);
+}
+
+.grey-container {
+    width: 77%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.description p a {
+    text-decoration: none;
+    color: rgb(0, 113, 188);
+}
+
+.description p a:hover {
+    text-decoration: underline;
+}
+
+.description-image a:hover img {
+    width: 430px;
+    height: 255px;
+}
