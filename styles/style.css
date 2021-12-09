@@ -519,3 +519,116 @@ h3 {
     width: 430px;
     height: 255px;
 }
+
+.vs-code {
+    width: 100%;
+    height: 480px;
+    background-color: rgb(245, 245, 245);
+}
+
+.vs-code-container {
+    margin: auto;
+    width: 77%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.vs-code-for {
+    height: 90px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vs-code-for h5 {
+    margin: 0;
+    color: rgb(68, 68, 68);
+    font-size: 45px;
+}
+
+.vs-code-list {
+    margin: auto;
+    width: 88%;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.vs-code-list div {
+    width: 159px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vs-code-list div i {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.vs-code-list div p {
+    font-size: 20px;
+}
+
+.more {
+    width: 88%;
+    height: 45px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.more p {
+    font-size: 20px;
+    margin: 0%;
+}
+
+.more p a {
+    text-decoration: none;
+    color: rgb(0, 113, 190);
+}
+
+.more p a:hover {
+    text-decoration: underline;
+}
+
+.get-started {
+    width: 88%;
+    height: 70px;
+    margin: auto;
+}
+
+.vs-code-list div.yellow i {
+    color:rgb(203, 203, 65)
+}
+
+.vs-code-list div.blue i {
+    color: rgb(81, 154, 186);
+}
+
+.vs-code-list div.red i {
+    color: rgb(204, 62, 68);
+}
+
+.vs-code-list div.purple i {
+    color: rgb(160, 116, 196);
+}
+
+.get-started a button {
+    height: 100%;
+    width: 225px;
+    background-color: rgb(0, 102, 184);
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+
+.get-started { 
+    display: flex;
+    justify-content: center;
+}
