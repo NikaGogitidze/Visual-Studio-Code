@@ -626,9 +626,126 @@ h3 {
     border: none;
     font-size: 20px;
     color: white;
+    cursor: pointer;
+}
+
+.get-started a button:hover {
+    background-color: rgb(0, 91, 164);
 }
 
 .get-started { 
     display: flex;
     justify-content: center;
+}
+
+.alt-downloads {
+    width: 100%;
+    height: 420px;
+    background-color: rgb(255, 255, 255);
+}
+
+.alt-downloads-container {
+    margin: auto;
+    width: 77%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.alt-downloads-container div {
+    width: 33%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+}
+
+.alt-downloads-container div button {
+    width: 65%;
+    height: 71px;
+}
+
+.alt-downloads-container div button h5 {
+    font-size: 15px;
+    display: flex;
+}
+
+.alt-downloads-container div button h5 img {
+    margin-right: 5px;
+}
+
+.alt-downloads-container div button h5, p {
+    margin: 0%;
+}
+
+.alt-downloads-container div button p {
+    font-size: 10px;
+}
+
+.alt-downloads-container div button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 102, 184);
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.alt-downloads-container div button:hover {
+    background-color: rgb(0, 91, 164);
+}
+
+.alt-downloads-container div table tbody tr td button {
+    width: 47px;
+    height: 24px;
+    font-size: 11px;
+    border-radius: 8px;
+}
+
+.alt-downloads-container div table tbody tr td {
+    text-align: center;
+    color: rgb(68, 68, 68);
+    font-weight: bold;
+}
+
+.linux .linux-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.linux .linux-buttons button {
+    height: 71px;
+    width: 48%;
+}
+
+.linux table tbody tr td .linux-td-button  {
+    width: 100%;
+}
+
+.linux table tbody tr td .linux-td-button button {
+    width: 80%;
+}
+
+.mac .mac-buttons table tbody tr td button {
+    width: 70px;
+}
+
+.mac .mac-button button {
+    height: 71px;
+    width: 250px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.alt-downloads-container .windows button.win {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
