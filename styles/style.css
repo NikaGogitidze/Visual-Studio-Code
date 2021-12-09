@@ -198,6 +198,7 @@ h3 {
 .download div p {
     color: rgb(167, 167, 170);
     font-size: 15px;
+    margin-bottom: 10px;
 }
 
 .chooseplatform {
@@ -287,6 +288,7 @@ h3 {
       top: -43px;
       right: 0px;
       left: 0px;
+      margin-top: 15px;
   }
 
 .extra p a {
@@ -735,7 +737,7 @@ h3 {
 }
 
 .mac .mac-buttons table tbody tr td button {
-    width: 70px;
+    width: 76px;
 }
 
 .mac .mac-button button {
