@@ -1,0 +1,297 @@
+@media only screen and (max-width: 1401.60px) {
+    header .headercontainer {
+        width: 91%;
+    }
+
+    .newversion .newversion-container {
+        width: 91%;
+    }
+
+    .platformdownload .platformdownload-child {
+        width: 91%;
+    }
+
+    .properties .properties-container {
+        width: 91%;
+    }
+
+    .comments .comments-container {
+        width: 91%;
+    }
+
+    .white .white-container {
+        width: 91%;
+    }
+
+    .grey .grey-container {
+        width: 91%;
+    }
+
+    .vs-code .vs-code-container {
+        width: 91%;
+    }
+
+    .alt-downloads .alt-downloads-container {
+        width: 91%;
+    }
+
+    .features .features-container {
+        width: 91%;
+    }
+
+    footer .footer-container {
+        width: 91%;
+    }
+
+    .platformdownload .platformdownload-child .download {
+        width: 32%;
+    }
+  }
+
+  @media only screen and (max-width: 1199.99px) {
+    .search button input {
+        display: none;
+    }
+
+    .search-maindownloader .search button {
+        background-color: rgb(44, 44, 50);
+    }
+
+    .headercontainer .mainmenu {
+        width: 70%;
+    }
+
+    .headercontainer .mainmenu .mainmenu-logo a h1 {
+        font-size: 18.2px;
+    }
+
+    .headercontainer .mainmenu nav ul a li {
+        font-size: 17.2px;
+    }
+
+    .newversion .newversion-container h2 {
+        font-size: 16.6px;
+    }
+
+    .example img {
+        width: 580px;
+        height: 480px;
+    }
+
+    .description-image img {
+        width: 350px;
+        height: 215px;
+    }
+
+    .grey .grey-container .description-image a:hover img {
+        width: 355px;
+        height: 220px;
+    }
+
+    .white .white-container .description h4 {
+        font-size: 30px;
+    }
+
+    .grey .grey-container .description h4 {
+        font-size: 30px;
+    }
+
+    .white .white-container .description p {
+        font-size: 16.8px;
+    }
+
+    .grey .grey-container .description p {
+        font-size: 16.8px;
+    }
+
+    .vs-code .vs-code-container .vs-code-for h5 {
+        font-size: 40px;
+    }
+
+    .vs-code .vs-code-container .vs-code-list div i {
+        font-size: 18px;
+    }
+
+    .vs-code .vs-code-container .vs-code-list div p {
+        font-size: 18px;
+    }
+
+    .vs-code .vs-code-container .more p {
+        font-size: 18px;
+    }
+
+    .vs-code .vs-code-container .get-started a button {
+        font-size: 18px;
+    }
+
+    .features .features-container .features-heading h5 {
+        font-size: 20px;
+    }
+
+    .features .features-container .features-heading p {
+        font-size: 16px;
+    }
+
+    .features .features-container .features-desctiption h6 {
+        font-size: 17px;
+    }
+
+    .features .features-container .features-desctiption p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .headercontainer .mainmenu nav {
+        display: none;
+    }
+
+    .search-maindownloader .search, .maindownloader {
+        display: none;
+    }
+    
+    .platformdownload .platformdownload-child {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .platformdownload .platformdownload-child .download h3 {
+        padding-top: 20px;
+        font-size: 38px;
+    }
+
+    .platformdownload .platformdownload-child .download div p {
+        font-size: 13px;
+        margin-top: 17px;
+    }
+
+    .platformdownload .platformdownload-child .download .extra img {
+        width: 98%;
+    }
+
+    .platformdownload .platformdownload-child .download br {
+        display: none;
+    }
+
+    .chooseplatform .downloadbutton a .button-1 {
+        width: 200px;
+        height: 60px;
+    }
+
+    .chooseplatform .dropdown .button-2 {
+        height: 60px;
+    }
+
+    .platformdownload .platformdownload-child .download {
+        height: 48%;
+    }
+
+    .platformdownload .platformdownload-child .example {
+        margin-top: 0%;
+    }
+
+    body .platformdownload {
+        height: 830px;
+    }
+
+    .comments-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .comments-list .comments-detail {
+        width: 95%;
+    }
+
+    body .comments {
+        height: 600px;
+    }
+
+    .comments-list .comments-detail .comments-image a {
+        margin-bottom: 0%;
+    }
+
+    .description-image img {
+        width: 250px;
+        height: 165px;
+    }
+
+    .grey .grey-container .description-image a:hover img {
+        width: 255px;
+        height: 170px;
+    }
+
+    .white .white-container .description h4 {
+        font-size: 27px;
+    }
+
+    .grey .grey-container .description h4 {
+        font-size: 27px;
+    }
+
+    .white .white-container .description p {
+        font-size: 14.8px;
+    }
+
+    .grey .grey-container .description p {
+        font-size: 14.8px;
+    }
+
+    .vs-code .vs-code-container .vs-code-for h5 {
+        font-size: 35px;
+    }
+
+    .vs-code .vs-code-container .vs-code-list div i {
+        font-size: 14px;
+    }
+
+    .vs-code .vs-code-container .vs-code-list div p {
+        font-size: 14px;
+    }
+
+    .vs-code .vs-code-container .more p {
+        font-size: 14px;
+    }
+
+    .vs-code .vs-code-container .get-started a button {
+        font-size: 14px;
+    }
+
+    body .vs-code {
+        height: 640px;
+    }
+
+    body .alt-downloads {
+        height: 720px;
+    }
+
+    .alt-downloads .alt-downloads-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .alt-downloads .alt-downloads-container div {
+        width: 50%;
+        height: 40%;
+    }
+
+    body .features {
+        height: 390px;
+    }
+
+    .features .features-container .features-heading h5 {
+        font-size: 19px;
+    }
+
+    .features .features-container .features-heading p {
+        font-size: 15px;
+    }
+
+    .features .features-container .features-desctiption h6 {
+        font-size: 16px;
+    }
+
+    .features .features-container .features-desctiption p {
+        font-size: 15px;
+    }
+}
