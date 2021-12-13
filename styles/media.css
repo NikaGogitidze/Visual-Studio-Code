@@ -383,3 +383,144 @@
         flex-wrap: wrap;
     }
 }
+
+@media only screen and (max-width: 660px) {
+    .example img {
+        width: 400px;
+        height: 360px;
+    }
+
+    .newversion .newversion-container {
+        text-align: center;
+    }
+
+    .newversion .newversion-container h2 {
+        font-size: 12.6px;
+    }
+
+    .platformdownload .platformdownload-child .download {
+        width: 49%;
+    }
+
+    body .platformdownload {
+        height: 770px;
+    }
+
+    .white .white-container .description-image {
+        width: 63%;
+    }
+
+    .grey .grey-container .description-image {
+        width: 63%;
+    }
+
+    .vs-code .vs-code-container .vs-code-for h5 {
+        font-size: 30px;
+    }
+
+    .vs-code .vs-code-container .vs-code-for {
+        margin: 0%;
+    }
+
+    .vs-code .vs-code-container .vs-code-list {
+        margin: 0%;
+        height: 300px;
+    }
+
+    .vs-code .vs-code-container {
+        align-items: center;
+    }
+
+    .vs-code .vs-code-container .vs-code-list div i {
+        font-size: 12px;
+    }
+
+    .vs-code .vs-code-container .vs-code-list div p {
+        font-size: 12px;
+    }
+
+    .vs-code .vs-code-container .more {
+        margin: 0%;
+    }
+
+    .vs-code .vs-code-container .get-started {
+        margin: 0%;
+    }
+
+    body .vs-code {
+        height: 530px;
+    }
+
+    .alt-downloads .alt-downloads-container div {
+        width: 100%;
+    }
+
+    .alt-downloads .alt-downloads-container div img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .alt-downloads .alt-downloads-container div button {
+        width: 40%;
+        height: 30px;
+    }
+
+    .alt-downloads .alt-downloads-container div button img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .alt-downloads .alt-downloads-container div button h5 {
+        font-size: 12px;
+    }
+
+    .alt-downloads .alt-downloads-container div button p {
+        font-size: 8px;
+    }
+
+    .alt-downloads-container div table tbody tr td {
+        font-size: 12px;
+    }
+
+    .alt-downloads .alt-downloads-container div table tbody tr td button {
+        width: 100%;
+    }
+
+    .alt-downloads .alt-downloads-container .linux-buttons {
+        justify-content: space-evenly;
+        width: 75%;
+    }
+
+    .alt-downloads .alt-downloads-container .windows {
+        height: 29%;
+    }
+
+    .alt-downloads .alt-downloads-container .mac {
+        height: 19%;
+    }
+
+    .alt-downloads .alt-downloads-container .linux {
+        height: 32%;
+    }
+
+    body .alt-downloads {
+        height: 755px;
+    }
+
+    .features .features-container .features-heading {
+        height: 15%;
+    }
+
+    .features .features-container .features-desctiption {
+        height: 80%;
+    }
+
+    .features .features-container .features-desctiption {
+        line-height: 30px;
+    }
+
+    body .features {
+        height: 330px;
+    }
+    
+}
