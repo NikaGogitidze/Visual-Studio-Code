@@ -857,3 +857,62 @@ footer {
     height: 70%;
     background-color: rgb(204, 62, 68);
 }
+
+/* Responsive menu */
+
+.responsive-dropcontent {
+    display: none;
+    z-index: 8;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 52px;
+}
+
+.responsive-button:hover {
+    cursor: pointer;
+}
+
+.responsive-button:hover .responsive-dropcontent {
+    display: block;
+}
+
+.responsive-button .responsive-dropcontent ul {
+    margin: 0%;
+    list-style-type: none;
+    background-color: rgb(44, 44, 50);
+    padding: 0%;
+}
+
+.responsive-button .responsive-dropcontent ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(223, 210, 211);
+    display: block;
+    padding-top: 10.5px;
+    padding-bottom: 10.5px;
+    text-align: left;
+    padding-left: 5%;
+}
+
+.responsive-button .responsive-dropcontent ul li a.responsive-download-link {
+    background-color: rgb(0, 102, 184);
+}
+
+.responsive-button .responsive-dropcontent ul li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.responsive-button .responsive-dropcontent ul li a.responsive-download-link:hover {
+    background-color: rgb(0, 91, 164);
+}
+
+.responsive-button {
+    background-color: rgb(44, 44, 50);
+    border: none;
+}
+
+.responsive-nav {
+    display: none;
+}
+

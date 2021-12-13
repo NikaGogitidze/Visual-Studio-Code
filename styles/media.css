@@ -294,4 +294,92 @@
     .features .features-container .features-desctiption p {
         font-size: 15px;
     }
+
+    header .headercontainer .responsive-nav {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .white .white-container {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .grey .grey-container {
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+
+    .description-image img {
+        width: 250px;
+        height: 140px;
+    }
+
+    .grey .grey-container .description-image a:hover img {
+        width: 255px;
+        height: 145px;
+    }
+
+    .white .white-container .description {
+        width: 100%;
+        height: auto;
+    }
+
+    .grey .grey-container .description {
+        width: 100%;
+        height: auto;
+    }
+
+    body .grey {
+        height: 450px;
+    }
+
+    body .white {
+        height: 450px;
+    }
+
+    .grey .grey-container .description-image {
+        height: auto;
+    }
+
+    .white .white-container .description-image {
+        height: auto;
+    }
+
+    body .features {
+        height: 420px;
+    }
+
+    .alt-downloads .alt-downloads-container .linux-buttons {
+        width: 82%;
+    }
+
+    .platformdownload .platformdownload-child .download {
+        height: 60%;
+    }
+
+    body .platformdownload {
+        height: 890px;
+    }
+
+    .platformdownload .platformdownload-child .download div p {
+        width: 195px;
+    }
+
+    .platformdownload .platformdownload-child .download .extra img {
+        width: 114%;
+    }
+
+    body .properties {
+        height: 300px;
+    }
+
+    body .properties .properties-container div {
+        width: 50%;
+    }
+
+    .properties .properties-container {
+        flex-wrap: wrap;
+    }
 }
